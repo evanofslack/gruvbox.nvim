@@ -148,7 +148,7 @@ groups.setup = function()
     NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = "Normal" },
     CursorLine = { bg = colors.dark_gray },
     CursorColumn = { bg = colors.bg0 },
-    TabLineFill = { fg = colors.bg4, bg = colors.bg1, reverse = config.invert_tabline },
+    TabLineFill = { fg = colors.bg4, bg = colors.bg0, reverse = config.invert_tabline },
     TabLineSel = { fg = colors.green, bg = colors.bg1, reverse = config.invert_tabline },
     TabLine = { link = "TabLineFill" },
     MatchParen = { bg = colors.bg3, bold = config.bold },
