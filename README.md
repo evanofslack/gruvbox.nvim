@@ -1,16 +1,9 @@
 <div align="center">
       <h1> <img src="https://i.postimg.cc/WpQzgxVh/plugin-Icon.png" width="80px"><br/>gruvbox.nvim</h1>
-     </div>
-<p align="center"> 
-      <a href="https://twitter.com/intent/user?screen_name=ellisonleao" target="_blank"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/ellisonleao?style=for-the-badge" style="vertical-align:center" ></a>
-      <a href="#"><img alt="Made with Lua" src="https://img.shields.io/badge/Made%20with%20Lua-blueviolet.svg?style=for-the-badge&logo=lua" style="vertical-align:center" /></a>
-</p>
+</div>
+     
+a personal fork of [ellisonleao/gruvbox](https://github.com/ellisonleao/gruvbox.nvim) with modified colors and highlight groups
 
-A port of [gruvbox community](https://github.com/gruvbox-community/gruvbox) theme to lua with [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) support!
-
-<p align="center">
-    <img src="https://i.postimg.cc/fy3tnGFt/gruvbox-themes.png" />
-</p>
 
 # Prerequisites
 
@@ -21,7 +14,7 @@ Neovim 0.8.0+
 Using `packer`
 
 ```lua
-use { "ellisonleao/gruvbox.nvim" }
+use { "evanofslack/gruvbox.nvim" }
 ```
 
 # Basic Usage
