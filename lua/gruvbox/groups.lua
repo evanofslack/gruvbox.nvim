@@ -154,7 +154,7 @@ groups.setup = function()
     GruvboxOrangeUnderline = { undercurl = config.undercurl, sp = colors.orange },
     Normal = config.transparent_mode and { fg = colors.fg1, bg = nil } or { fg = colors.fg1, bg = colors.bg0 },
     NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = "Normal" },
-    NormalFloat = { fg = colors.fg1, bg = colors.bg0 },
+    NormalFloat = { fg = colors.fg1, bg = colors.bg1 },
     CursorLine = { bg = colors.dark_gray },
     CursorColumn = { bg = colors.bg0 },
     TabLineFill = { fg = colors.bg4, bg = colors.bg0, reverse = config.invert_tabline },
